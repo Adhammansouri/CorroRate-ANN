@@ -62,13 +62,13 @@ pip install -r requirements.txt
 Run the complete implementation:
 
 ```bash
-python real_data_analysis.py
+python corrosion_ann_model.py
 ```
 
 ### Programmatic Usage
 
 ```python
-from real_data_analysis import RealDataCorrosionANN
+from corrosion_ann_model import RealDataCorrosionANN
 
 # Initialize the model
 ann_model = RealDataCorrosionANN()
@@ -138,8 +138,8 @@ The implementation includes:
 ## Files Structure
 
 ```
-ANN/
-├── real_data_analysis.py    # Main implementation with advanced analysis
+CorroRate-ANN/
+├── corrosion_ann_model.py   # Main implementation with advanced analysis
 ├── requirements.txt          # Dependencies
 ├── README.md                # This file
 ├── real_data_model_results.png      # Model performance plots
